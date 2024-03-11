@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 478px) {
+    .container{
+        position: absolute;
+        top: 38%;
+        left: 18%;
+        background-image: linear-gradient(to bottom, rgb(65, 65, 241), rgb(97, 97, 204), rgb(233, 107, 128), rgb(194, 57, 80));
+        padding: 4%;
+    
+    }
+    .container h1{
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-size: 25px;
+        color: #212529;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 500;
+        line-height: 42px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    #theInput{
+        outline-color: blueviolet;
+        padding: 12px;
+        width: 150px;
+        border: none;
+        border-radius: 5px 0 0 5px;
+    
+    }
+    .container button{
+        border: none;
+        background-color: green;
+        cursor: pointer;
+        color: #fff;
+        font-size: 15px;
+        padding: 12px;
+        transform: translate(-4px,2px);
+        border-radius: 0 5px 5px 0;
+        width: 70px;
+    }
+    #display{
+        background-color: #fff;
+        text-align: center;
+        margin-top: 20px;
+        /* margin: auto; */
+        padding: 10px;
+        width: 150px;
+        transform: translate(30%);
+        border-radius: 10px;
+    }
+    ::placeholder{
+        font-size: 12px;
+    }
+    body{
+        /* background-image: linear-gradient(to bottom, blue,blue, pink,pink); */
+        background-color: #212529;
+        
+        background: linear-gradient(to bottom, rgb(65, 65, 241), rgb(97, 97, 204),rgb(233, 107, 128),rgb(194, 57, 80));
+        overflow: hidden;
+        /* overflow: visible; */
+    }
+    
+}

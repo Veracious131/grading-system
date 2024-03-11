@@ -5,7 +5,10 @@
 }
 body{
     /* background-image: linear-gradient(to bottom, blue,blue, pink,pink); */
-    background: linear-gradient(to bottom, rgb(65, 65, 241), rgb(97, 97, 204), rgb(233, 107, 128), rgb(194, 57, 80));
+    background-color: #212529;
+    
+    background: linear-gradient(to bottom, rgb(65, 65, 241), rgb(97, 97, 204),rgb(233, 107, 128),rgb(194, 57, 80));
+    overflow: hidden;
 }
 
 .container{
@@ -61,4 +64,149 @@ body{
 ::placeholder{
     font-size: 20px;
 }
+.box0 div{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    z-index: -1;
+    opacity: 0.5;
+}
+.box1{
+    animation: box1 infinite  7s  forwards linear;
+}
+.box2{
+    animation: box4 infinite  6s  forwards linear;
+}
+.box3{
+    animation: box3 infinite  4s  forwards linear;
+}
+.box4{
+    animation: box4 infinite  5s  forwards linear;
+}
+.box5{
+    animation: box5 infinite  3s  forwards linear;
+}
+@keyframes box1 {
+    0%{
+        transform: translate(-70px, 30px);
+    }
+    100%{
+        transform: translate(1200px,30px);
+        
+    }
+    
+}
+@keyframes box2 {
+    0%{
+        transform: translate(-70px, 60px);
+    }
+    100%{
+        transform: translate(1200px,60px);
+        
+    }
+    
+}
+@keyframes box3 {
+    0%{
+        transform: translate(-70px,90px);
+    }
+    100%{
+        transform: translate(1200px,90px);
+        
+    }
+    
+}
+@keyframes box4 {
+    0%{
+        transform: translate(-70px,110px);
+    }
+    100%{
+        transform: translate(1200px,110px);
+        
+    }
+    
+}
+@keyframes box5 {
+    0%{
+        transform: translate(-70px,115px);
+    }
+    100%{
+        transform: translate(1200px,115px);
+        
+    }
+    
+}
+.box div{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    z-index: -1;
+    opacity: 0.5;
+}
+.boxi{
+    animation: boxi infinite  7s  forwards linear;
+}
+.boxii{
+    animation: boxii infinite  6s  forwards linear;
+}
+.boxiii{
+    animation: boxiii infinite  4s  forwards linear;
+}
+.boxiv{
+    animation: boxiv infinite  5s  forwards linear;
+}
+.boxv{
+    animation: boxv infinite  3s  forwards linear;
+}
+@keyframes boxi {
+    0%{
+        transform: translate(0px, -1000px);
+    }
+    100%{
+        transform: translate(0px,1000px);
+        
+    }
+    
+}
+@keyframes boxii {
+    0%{
+        transform: translate(200px, -1000px);
+    }
+    100%{
+        transform: translate(200px,1000px);
+        
+    }
+    
+}
+@keyframes boxiii {
+    0%{
+        transform: translate(400px,-1000px);
+    }
+    100%{
+        transform: translate(400px,1000px);
+        
+    }
+    
+}
+@keyframes boxiv {
+    0%{
+        transform: translate(600px,-1000px);
+    }
+    100%{
+        transform: translate(600px,1000px);
+        
+    }
+    
+}
+@keyframes boxv {
+    0%{
+        transform: translate(800px,-100px);
+    }
+    100%{
+        transform: translate(800px,1000px);
+        
+    }
+    
+}
+
 
